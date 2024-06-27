@@ -1,0 +1,14 @@
+#ambiente virtual
+.env
+.venv/
+.idea
+
+#pastas
+crewAI_files
+content
+
+#arquivos txt, csv, html, pdf, zip
+dotenv.txt
+extracted_links.csv
+crewAI.html
+crew_output.zip

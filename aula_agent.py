@@ -47,7 +47,7 @@ viagem_task = Task(
 
 teste = (Crew(agents=[consultor_viagens],
               tasks=[viagem_task],
-              process=Process.sequential).kickoff(inputs={'query': 'Lista em português pt-BR os 5 lugares paradisíacos no Brasil'}) # kickoff é um método que roda o projeto
+              process=Process.sequential).kickoff(inputs={'query': 'Listar em português pt-BR os 5 lugares paradisíacos no Brasil'}) # kickoff é um método que roda o projeto
          )
 
 print(teste)

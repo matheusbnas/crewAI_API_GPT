@@ -1,0 +1,14 @@
+email_response_task:
+  description: >
+    Responder e-mails recebidos de influencers e marcas. Use um tom profissional e personalizado, abordando as principais preocupações e fornecendo informações relevantes sobre nossa marca ou campanha.
+    
+    Exemplo de E-mail Recebido:
+    "Olá, estamos interessados em colaborar com sua marca para uma campanha de mídia social. Gostaríamos de saber mais detalhes sobre suas ofertas e como podemos trabalhar juntos."
+
+    Exemplo de Resposta Esperada:
+    "Olá [Nome],
+    Obrigado por entrar em contato. Ficamos muito felizes com seu interesse em colaborar conosco. Nossas ofertas incluem [detalhes das ofertas]. Adoraríamos discutir mais detalhes sobre como podemos trabalhar juntos para uma campanha bem-sucedida. Por favor, me avise se você estiver disponível para uma reunião esta semana.
+    Atenciosamente,
+    [Seu Nome]"
+  expected_output: >
+    Uma resposta por e-mail bem estruturada e profissional, seguindo o exemplo fornecido.
